@@ -1,4 +1,4 @@
-# Home-Server Setup
+# Home-Server Cluster
 This repository describes the setup process of my home server cluster consisting of one Zorin OS (linux based) machine with a GUI per remote desktop connection and one Ubuntu-Server machine for compute intensive tasks.
 
 # 1) Zorin Machine - Remote Desktop
