@@ -3,12 +3,12 @@ This repository describes the setup process of my home server cluster consisting
 
 # 1) Zorin Machine - Remote Desktop
 
-This 12-core machine was set up as a Linux server based on Zorin OS designed for visual remote access with a smooth, Windows-like desktop experience.
+This machine was set up as a remote desktop server based on Zorin OS designed for visual remote access with a smooth, Windows-like desktop experience.
 
 ---
 
 ## System Overview
-- CPU: 12 Cores
+- CPU: 12 Cores, Intel Core i7-8700 @ 3.2 GHz
 - No dedicated GPU
 - OS: Zorin OS (Linux)
 - Goal: Secure and fast remote desktop management over SSH and NoMachine with access ability from external networks.
@@ -16,7 +16,7 @@ This 12-core machine was set up as a Linux server based on Zorin OS designed for
 ---
 
 ## Setup Steps
-After installing Zorin OS on the machine, the first step is to enable a SSH connection.
+First, install Zorin OS on the machine
 
 ### 1. SSH & Security Foundation
 - Installation & Activation: Verified and enabled the SSH service on the server for automatic startup.
@@ -46,4 +46,19 @@ Now I am able to connect via SSH on my laptop from any network and have the serv
 
 # 2) Ubuntu Server Machine - Compute Backend
 
-**This machine is currently still in the setup process. Once the configuration is complete, this page will be updated.**
+This machine was set up as a compute dedicated server environment running on Ubuntu Server. It can be accessed by the Zorin System and by my private Laptop via SSH.
+
+---
+
+## System Overview
+- CPU: 20 Cores, Intel Core i7-12700 @ 4.9 GHz
+- NVIDIA GeForce RTX 3060, 12GB VRAM
+- OS: Ubuntu Server (Linux)
+- Goal: Compute power with access ability from external networks.
+
+---
+
+## Setup Steps
+First, install Ubuntu Server as OS on the machine
+
+**Once the setup process is fully complete, this page will be updated**
