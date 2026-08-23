@@ -61,4 +61,11 @@ This machine was set up as a compute dedicated server environment running on Ubu
 ## Setup Steps
 First, install Ubuntu Server as OS on the machine
 
-**Once the setup process is fully complete, this page will be updated**
+The SSH and network setup was analogous to the one described above for the Zorin machine. 
+
+The connection to the Ubuntu server machine can now be established either via the Zorin machine or directly from my Laptop.
+
+---
+
+## Next steps
+The last step for having a fully functional compute cluster is the installation of a programm (e.g. winSCP)  for quick file sharing between the devices.
