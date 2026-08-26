@@ -69,5 +69,5 @@ The connection to the Ubuntu server machine can now be established either via th
 
 # File Sharing
 - For file sharing connection between the Windows laptop and the Zorin Server, NoMachine offers an elegant solution to also connect drives between devices
-- file sharing between the Windows laptop and the ubuntu server can easily be implemented using the GUI of WinSCP on the laptop
-- **ToDo**: The file sharing between the two Linux machines will take advantage of the indirect lan connection of the servers via the router 
+- File sharing between the Windows laptop and the ubuntu server can easily be implemented using the GUI of WinSCP on the laptop
+- The file sharing between the two server machines is enabled by a nfs connection via LAN
